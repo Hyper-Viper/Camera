@@ -1,0 +1,40 @@
+<html>
+    <head>
+       <title>My Selfie App</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+            <link href="style.css" rel="stylesheet">
+    </head>
+ 
+<body>
+    <center>
+        <a href="" id="link" download="Myselfie.png"></a>
+        <div id="content">
+            <div id="camera"></div>
+            <label id="webcam_lbl">Your Webcam</label>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="flip" onclick="flip();"></div>
+        <br>
+        <br>
+        <br>
+        <div id="result">
+            <img id="img"/><br>
+            <label id="selfie_lbl">Your Selfie</label>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="anim">
+            <div id="anim1"></div>
+            <div id="record" onclick="start();" alt="Record"></div>
+        </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
